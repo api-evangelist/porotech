@@ -1,7 +1,31 @@
 aid: porotech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/porotech.png
 name: Porotech
-description: Porotech is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Porotech (Poro Technologies Ltd) is a Cambridge University deep-tech spinout,
+  founded in 2018 by Dr. Tongtong Zhu, Dr. Yingjun Liu, and Professor Rachel
+  Oliver, that develops gallium nitride (GaN) semiconductor materials and
+  MicroLED display technology. Its proprietary PoroGaN porous-InGaN epitaxy
+  enables full-color MicroLED production on 4-to-12-inch wafers using a single
+  material system, and its Dynamic Pixel Tuning (DPT) technology generates any
+  visible color from a single LED chip. Porotech supplies epitaxy, micro
+  displays, and light-engine products for AR/VR/MR applications, and has
+  established mass-production partnerships with Foxconn, PSMC (Powerchip), and
+  GIS. The company is backed by Speedinvest. Porotech is a hardware and
+  semiconductor manufacturer and publishes no public API, SDK, developer portal,
+  or event/streaming surface; this record is maintained for company-level
+  discovery within the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/porotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- MicroLED
+- Display
+- Semiconductor
+- GaN
+- Gallium Nitride
+- Deep Tech
+- Hardware
+- AR/VR
+- Photonics
 apis: []
+common:
+- type: Website
+  url: https://www.porotech.com/
+- type: Contact
+  url: https://www.porotech.com/contact/
+- type: PrivacyPolicy
+  url: https://www.porotech.com/privacy-policy
+- type: TermsOfService
+  url: https://www.porotech.com/terms-of-use
+- type: Twitter
+  url: https://twitter.com/Porotech_Ltd
+- type: LinkedIn
+  url: https://www.linkedin.com/company/porotech/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
